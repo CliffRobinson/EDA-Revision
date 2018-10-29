@@ -31,3 +31,11 @@ test('getAll returns three todos', () => {
       expect(actual).toBe(expected)
     })
 })
+
+test('deleteById removes a DB entry', ()=> {
+  return todos.deleteById(2, testDb)
+    .then( (results) => {
+      expect(results).toEqual(1);
+      console.log(testDb('todos').select())
+    })
+})

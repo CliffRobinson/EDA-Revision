@@ -15,7 +15,7 @@ switch (cmd) {
       .finally(closeDB)
     break
   case 'done':
-    deletebyId(note)
+    deleteById(note)
       .then(refreshTodos)
       .then(listTodos)
       .catch(logError)
@@ -36,6 +36,13 @@ switch (cmd) {
     break;
   case 'complete':
   completeById(note)
+    .then(refreshTodos)
+    .then(listTodos)
+    .catch(logError)
+    .finally(closeDB)
+    break;
+  case 'add':
+    newTask(note)
     .then(refreshTodos)
     .then(listTodos)
     .catch(logError)
@@ -66,7 +73,7 @@ function getAll (testDb) {
   return db('todos').select()
 }
 
-function deletebyId(id, testDb) {
+function deleteById(id, testDb) {
   const db = testDb || devDb
   return db('todos')
     .where('id', id)
@@ -97,3 +104,19 @@ function completeById(id, testDb) {
     .where('id', id)
     .update({completed:true})
 }
+
+function newTask(task, testDb){
+  const db = testDb || devDb
+    return db('todos')
+      .insert({task:task})
+} 
+
+module.exports = {
+  getAll,
+  refreshTodos,
+  deleteById,
+  updateById,
+  searchByString, 
+  completeById,
+  newTask
+};
