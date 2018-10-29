@@ -60,8 +60,8 @@ function listTodos (todos) {
   })
 }
 
-function refreshTodos() {
-  return getAll();
+function refreshTodos(testDb) {
+  return getAll(testDb);
 }
 
 function logError (err) {
