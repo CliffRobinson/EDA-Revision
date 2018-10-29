@@ -33,9 +33,18 @@ test('getAll returns three todos', () => {
 })
 
 test('deleteById removes a DB entry', ()=> {
+  const {getAll} = todos; 
   return todos.deleteById(2, testDb)
     .then( (results) => {
       expect(results).toEqual(1);
-      console.log(testDb('todos').select())
+      return getAll(testDb)
+        .then( (content) => {
+          expect(content.length).toEqual(2);
+          expect(content[0].task).toEqual("Acquire wombats.");
+          expect(content[1].task).toEqual("Profit.");
+        })
+      
     })
 })
+
+//probs better to look for thing and find it isn't there than verify that the remaining items are as they should be. 
