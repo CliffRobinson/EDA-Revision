@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.3"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "knex": "knex",
+    "test": "jest"
+  }
+}

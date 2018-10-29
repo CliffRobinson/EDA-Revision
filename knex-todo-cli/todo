@@ -5,6 +5,7 @@ const devDb = require('knex')(config)
 
 const cmd = process.argv[2]
 const note = process.argv[3]
+const text = process.argv[4]
 
 switch (cmd) {
   case 'list':
@@ -13,17 +14,47 @@ switch (cmd) {
       .catch(logError)
       .finally(closeDB)
     break
-
+  case 'done':
+    deletebyId(note)
+      .then(refreshTodos)
+      .then(listTodos)
+      .catch(logError)
+      .finally(closeDB)
+    break;
+  case 'update':
+    updateById(note, text)
+      .then(refreshTodos)
+      .then(listTodos)
+      .catch(logError)
+      .finally(closeDB)
+    break;
+  case 'find':
+    searchByString(note)
+    .then(listTodos)
+    .catch(logError)
+    .finally(closeDB)
+    break;
+  case 'complete':
+  completeById(note)
+    .then(refreshTodos)
+    .then(listTodos)
+    .catch(logError)
+    .finally(closeDB)
+    break;
   default:
     console.log('No matched cases')
     closeDB()
-    break
+    break;
 }
 
 function listTodos (todos) {
   todos.forEach(function (todo) {
-    console.info(todo.task)
+    console.log(`${todo.id}: ${todo.task}, you beautiful genius\n${todo.completed ? "It's completed, you charismatic hunk" : "It's not completed yet, you lithe charmer"}\n`);
   })
+}
+
+function refreshTodos() {
+  return getAll();
 }
 
 function logError (err) {
@@ -35,7 +66,34 @@ function getAll (testDb) {
   return db('todos').select()
 }
 
+function deletebyId(id, testDb) {
+  const db = testDb || devDb
+  return db('todos')
+    .where('id', id)
+    .delete()
+} 
+
+function updateById(id, newTask, testDb) {
+  const db = testDb || devDb
+  return db('todos')
+    .where('id', id)
+    .update({task:newTask})
+}
+
+function searchByString(searchString, testDb) {
+  const db = testDb || devDb
+  return db('todos')
+    .where('task', 'like', `%${searchString}%`)
+}
+
 function closeDB (testDb) {
   const db = testDb || devDb
   db.destroy()
+}
+
+function completeById(id, testDb) {
+  const db = testDb || devDb
+  return db('todos')
+    .where('id', id)
+    .update({completed:true})
 }
