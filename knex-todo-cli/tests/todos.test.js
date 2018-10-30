@@ -62,10 +62,10 @@ test("updateById changes task", ()=> {
   const {getAll} = todos; 
   return todos.updateById(2, newTask, testDb)
     .then( (results) => {
-      expect(results).toEqual(1);
+      expect(results).toEqual(1); //unit, should expert err to be null
       return getAll(testDb)
         .then( (content) => {
-          expect(content[1].task).toEqual(newTask);
+          expect(content[1].task).toEqual(newTask); //integration
         })
     })
 })
@@ -87,4 +87,17 @@ test("completeById creates true values", ()=> {
       expect(content[0].completed).toBeTruthy()
     })
   })
+})
+
+test("newTask creates a new task", ()=> {
+  const {getAll} = todos;
+  const newTask = "create and market wombat-based pyramid scheme"
+  return todos.newTask(newTask, testDb)
+    .then((results) => {
+      expect(results).toEqual([4])
+      return getAll(testDb)
+      .then( (content) => {
+      expect(content[3].task).toEqual(newTask)
+      })
+    })
 })
