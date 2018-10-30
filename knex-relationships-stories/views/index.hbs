@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EDA Phase 1 Express Boilerplate</title>
+  </head>
+  <body>
+    <ul>
+    {{#each users}}
+      <li><a href="/users/{{id}}">{{name}} ({{email}})</a></li>
+    {{/each}}
+    <hr>
+    <a href="/adduser">Add a User</a>
+    </ul>
+  </body>
+</html>
