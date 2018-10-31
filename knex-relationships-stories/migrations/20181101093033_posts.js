@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
         table.integer('user_id')
         table.string('title')
         table.string('content')
-    }
+    })
 };
 
 exports.down = function(knex, Promise) {
