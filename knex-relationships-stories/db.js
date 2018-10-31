@@ -6,7 +6,9 @@ module.exports = {
   getUser: getUser,
   getUsers: getUsers,
   addUser,
-  addProfile
+  addProfile,
+  getPosts,
+  getPost
 }
 
 function getUsers (testConn) {
@@ -40,4 +42,22 @@ function addProfile(user_id, url, img_url, testConn) {
       url:url,
       img_url: img_url,
     })
+}
+
+function getPosts(testConn) {
+  const conn = testConn || connection
+  return conn('users')
+    .select('*', "posts.user_id as post_user_id")
+    .join('posts', 'posts.user_id', 'users.id')
+    .join('profiles', 'profiles.user_id', 'users.id')
+}
+
+function getPost(id, testConn) {
+  const conn = testConn || connection
+  return conn('users')
+    .select('*', "posts.user_id as post_user_id")
+    .join('posts', 'posts.user_id', 'users.id')
+    .join('profiles', 'profiles.user_id', 'users.id')
+    .where('posts.id', id)
+    .first()
 }

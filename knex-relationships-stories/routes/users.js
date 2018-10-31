@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
 router.get("/users/:id", (req, res) => {
   db.getUser(req.params.id)
     .then( user => {
-      //console.log("User is:", user)
+      console.log("User is:", user)
       res.render("user", user)
     })
     .catch(err => {
@@ -54,6 +54,22 @@ router.post("/adduser", (req, res) => {
       res.redirect("/")
     })
   })
+})
+
+router.get("/posts", (req, res) => {
+  db.getPosts()
+    .then( (posts) => {
+      console.log(posts)
+      res.render("posts", {posts})
+    })
+})
+
+router.get("/posts/:id", (req, res) => {
+  db.getPost(req.params.id)
+    .then( (post) => {
+      console.log(post)
+      res.render("post", post)
+    })
 })
 
 module.exports = router
