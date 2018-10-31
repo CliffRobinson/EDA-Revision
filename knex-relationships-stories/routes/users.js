@@ -7,7 +7,7 @@ const router = express.Router()
 router.get('/', (req, res) => {
   db.getUsers()
     .then(users => {
-      console.log("Users are:", users)
+      //console.log("Users are:", users)
       res.render('index', {users: users})
     })
     .catch(err => {
@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
 router.get("/users/:id", (req, res) => {
   db.getUser(req.params.id)
     .then( user => {
-      console.log("User is:", user)
+      //console.log("User is:", user)
       res.render("user", user)
     })
     .catch(err => {
@@ -39,12 +39,20 @@ router.get("/adduser", (req, res) => {
 })
 
 router.post("/adduser", (req, res) => {
+  console.log(req.body)
   db.addUser(
     req.body.name,
     req.body.email
   ).then ( (input) => {
-    console.log(input)
-    res.redirect("/")
+    console.log("Output of adduser is: ", input)
+    db.addProfile(
+      input[0],
+      req.body.url,
+      req.body.img_url      
+    ).then( (input) => {
+      console.log("Output of addprofile is: ", input)
+      res.redirect("/")
+    })
   })
 })
 

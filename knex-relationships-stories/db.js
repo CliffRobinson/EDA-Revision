@@ -6,6 +6,7 @@ module.exports = {
   getUser: getUser,
   getUsers: getUsers,
   addUser,
+  addProfile
 }
 
 function getUsers (testConn) {
@@ -28,5 +29,15 @@ function addUser(name, email, testConn) {
     .insert({
       name: name,
       email: email
+    })
+}
+
+function addProfile(user_id, url, img_url, testConn) {
+  const conn = testConn || connection
+  return conn('profiles')
+    .insert({
+      user_id: user_id,
+      url:url,
+      img_url: img_url,
     })
 }
