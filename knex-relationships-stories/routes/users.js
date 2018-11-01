@@ -26,6 +26,36 @@ router.get("/users/:id", (req, res) => {
     })
 })
 
+
+router.get("/users/edit/:id", (req, res) => {
+  db.getUser(req.params.id)
+  .then( user => {
+    console.log("User is:", user)
+    res.render("edituser", user)
+  })
+  .catch(err => {
+    res.status(500).send('DATABASE ERROR: ' + err.message)
+  })
+})
+
+router.post("/users/edit/:id", (req, res) => {
+  console.log(req.params)
+  console.log(req.body)
+  db.editUser(req.params.id, req.body.name, req.body.email)
+  .then( user => {
+    console.log("Edited user is:", user)
+    db.editProfile(req.params.id, req.body.url, req.body.img_url)
+      .then( (output) => {
+        console.log("edited profile is ", output)
+        res.redirect("/")
+      })
+  })
+  .catch(err => {
+    res.status(500).send('DATABASE ERROR: ' + err.message)
+  })
+})
+
+
 // router.get("/addcliff", (req, res) => {
 //   db.addUser("cliff","cliff@mail.com")
 //     .then( (output) => {

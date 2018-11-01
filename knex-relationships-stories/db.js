@@ -6,7 +6,9 @@ module.exports = {
   getUser: getUser,
   getUsers: getUsers,
   addUser,
+  editUser,
   addProfile,
+  editProfile,
   getPosts,
   getPost
 }
@@ -34,10 +36,31 @@ function addUser(name, email, testConn) {
     })
 }
 
+function editUser(id, name, email, testConn) {
+  const conn = testConn || connection
+  return conn('users')
+  .where('id', id)
+  .update({
+    name: name,
+    email: email
+  })
+}
+
 function addProfile(user_id, url, img_url, testConn) {
   const conn = testConn || connection
   return conn('profiles')
     .insert({
+      user_id: user_id,
+      url:url,
+      img_url: img_url,
+    })
+}
+
+function editProfile(user_id, url, img_url, testConn) {
+  const conn = testConn || connection
+  return conn('profiles')
+    .where('user_id', user_id)
+    .update({
       user_id: user_id,
       url:url,
       img_url: img_url,
