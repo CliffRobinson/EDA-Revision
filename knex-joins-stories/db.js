@@ -14,6 +14,11 @@ function getOneWomble(id) {
     .where('wombles.id', id)
 }
 
+function getAssignments() {
+    return db('wombles')
+    .join()
+}
+
 module.exports = {
     getWombles,
     getOneWomble

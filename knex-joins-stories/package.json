@@ -27,12 +27,12 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "knex": "^0.14.2",
-    "sqlite3": "^3.1.13"
+    "knex": "^0.20.11",
+    "sqlite3": "^4.1.1"
   },
   "devDependencies": {
-    "jest": "^22.1.4",
-    "nodemon": "^1.14.11",
-    "supertest": "^3.0.0"
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
   }
 }

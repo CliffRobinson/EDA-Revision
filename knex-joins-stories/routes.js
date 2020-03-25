@@ -27,5 +27,13 @@ router.get('/wombles/:id', (req, res) => {
     })
 })
 
+router.get('wombles/assignments', (req, res)=> {
+  db.getAssignments()
+    .then( (wombles) => {
+      console.log(wombles)
+      res.render('assignments', {wombles})
+    })
+})
+
 module.exports = router
 
