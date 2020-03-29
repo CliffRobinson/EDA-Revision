@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.jest 1`] = `
+<div
+  className="app"
+>
+  <Connect(ErrorMessage) />
+  <Connect(LoadSubreddit)>
+    <Connect(WaitIndicator) />
+  </Connect(LoadSubreddit)>
+  <Connect(Subreddit) />
+</div>
+`;
