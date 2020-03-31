@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for client/components/Post.jsx</title>
+    <title>Code coverage report for client/sagas/subreddits.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">client/components</a> Post.jsx</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">client/sagas</a> subreddits.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">40% </span>
+                <span class="strong">28.57% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>2/5</span>
+                <span class='fraction'>2/7</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/2</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/1</span>
+                <span class='fraction'>1/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">40% </span>
+                <span class="strong">28.57% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>2/5</span>
+                <span class='fraction'>2/7</span>
             </div>
         
             
@@ -76,12 +76,9 @@
 <a name='L17'></a><a href='#L17'>17</a>
 <a name='L18'></a><a href='#L18'>18</a>
 <a name='L19'></a><a href='#L19'>19</a>
-<a name='L20'></a><a href='#L20'>20</a>
-<a name='L21'></a><a href='#L21'>21</a>
-<a name='L22'></a><a href='#L22'>22</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L20'></a><a href='#L20'>20</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -89,38 +86,35 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react'
-import {unix} from 'moment'
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import "core-js/stable";
+import "regenerator-runtime/runtime";
 &nbsp;
-const styleObj = {
-  background:"red",
-  border: "2px solid green",
-  width:"150px",
-  margin:"2px"
+import request from 'superagent'
+import {call, put, takeLatest} from 'redux-saga/effects'
+&nbsp;
+import {REQUEST_POSTS, receivePosts} from '../actions'
+&nbsp;
+export function* fetchPosts(action) {
+    console.log("I'm the saga, an I fetch der posts!")
+    const posts = yield call(request.get, `/api/v1/reddit/subreddit/${action.sub}`)
+<span class="cstat-no" title="statement not covered" >    console.log(`Posts got, lookit em:`)</span>
+<span class="cstat-no" title="statement not covered" >    console.log(posts)</span>
+<span class="cstat-no" title="statement not covered" >    console.log('putten em in redux!')</span>
+<span class="cstat-no" title="statement not covered" >    yield put(receivePosts(posts.body))</span>
 }
 &nbsp;
-const Post = <span class="fstat-no" title="function not covered" >({</span>post}) =&gt; {
-    const {title, created, url, thumbnail} = <span class="cstat-no" title="statement not covered" >post;</span>
-    const date = <span class="cstat-no" title="statement not covered" >unix(created).format('dddd h:mm')</span>
-<span class="cstat-no" title="statement not covered" >    return &lt;div style={styleObj}&gt;</span>
-        &lt;h6&gt;{title}&lt;/h6&gt;
-        &lt;p&gt;{date}&lt;/p&gt; 
-        {(thumbnail != "self") &amp;&amp; &lt;img src={thumbnail} /&gt;}
-      &lt;/div&gt;
-}
-&nbsp;
-export default Post
-&nbsp;</pre></td></tr></table></pre>
+export function* <span class="fstat-no" title="function not covered" >subreddits(</span>) {
+<span class="cstat-no" title="statement not covered" >    yield takeLatest(REQUEST_POSTS, fetchPosts)</span>
+}</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
