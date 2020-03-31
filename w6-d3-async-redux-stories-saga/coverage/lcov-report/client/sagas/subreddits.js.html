@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for client/components/LoadSubreddit.jsx</title>
+    <title>Code coverage report for client/sagas/subreddits.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">client/components</a> LoadSubreddit.jsx</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">client/sagas</a> subreddits.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">42.86% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>3/7</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">42.86% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>3/7</span>
             </div>
         
             
@@ -55,7 +55,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -82,39 +82,39 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react'
-import { connect } from 'react-redux'
-import { requestPosts } from '../actions'
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import "core-js/stable";
+import "regenerator-runtime/runtime";
 &nbsp;
+import request from 'superagent'
+import {call, put, takeLatest} from 'redux-saga/effects'
 &nbsp;
+import {REQUEST_POSTS, receivePosts} from '../actions'
 &nbsp;
-export const LoadSubreddit = ({ children, dispatch }) =&gt; (
-  &lt;div&gt;
-    &lt;button onClick={() =&gt; {
-      //console.log("I'm clickin da button!")
-      dispatch(requestPosts('newzealand'))
-    }}&gt;
-      Fetch Posts
-    &lt;/button&gt;
-    {children}
-  &lt;/div&gt;
-)
+export function* fetchPosts(action) {
+    console.log("I'm the saga, an I fetch der posts!")
+    const posts = yield call(request.get, `/api/v1/reddit/subreddit/${action.sub}`)
+<span class="cstat-no" title="statement not covered" >    console.log(`Posts got, lookit em:`)</span>
+<span class="cstat-no" title="statement not covered" >    console.log(posts)</span>
+<span class="cstat-no" title="statement not covered" >    console.log('putten em in redux!')</span>
+<span class="cstat-no" title="statement not covered" >    yield put(receivePosts(posts.body))</span>
+}
 &nbsp;
-export default connect()(LoadSubreddit)
-&nbsp;</pre></td></tr></table></pre>
+export function* subreddits() {
+    yield takeLatest(REQUEST_POSTS, fetchPosts)
+}</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
