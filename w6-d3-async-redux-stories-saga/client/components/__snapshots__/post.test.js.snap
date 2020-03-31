@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`post, img 1`] = `
+<div
+  style={
+    Object {
+      "background": "red",
+      "border": "2px solid green",
+      "margin": "2px",
+      "width": "150px",
+    }
+  }
+>
+  <h6>
+    lol!
+  </h6>
+  <p>
+    Thursday 9:24
+  </p>
+  <img
+    src="www.picture.com/random.png"
+  />
+</div>
+`;
+
+exports[`post, no img 1`] = `
+<div
+  style={
+    Object {
+      "background": "red",
+      "border": "2px solid green",
+      "margin": "2px",
+      "width": "150px",
+    }
+  }
+>
+  <h6>
+    lol!
+  </h6>
+  <p>
+    Thursday 9:24
+  </p>
+</div>
+`;

@@ -2,7 +2,7 @@ import "core-js/stable";
 import "regenerator-runtime/runtime";
 
 import request from 'superagent'
-import {call, put, takeLatest} from 'redux-saga/effects'
+import {call, put, takeLatest, takeEvery} from 'redux-saga/effects'
 
 import {REQUEST_POSTS, receivePosts} from '../actions'
 
@@ -16,5 +16,5 @@ export function* fetchPosts(action) {
 }
 
 export function* subreddits() {
-    yield takeLatest(REQUEST_POSTS, fetchPosts)
+    yield takeEvery(REQUEST_POSTS, fetchPosts)
 }

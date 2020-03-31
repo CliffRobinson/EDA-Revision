@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1585617942417" clover="3.2.0">
-  <project timestamp="1585617942417" name="All files">
-    <metrics statements="57" coveredstatements="41" conditionals="4" coveredconditionals="0" methods="21" coveredmethods="11" elements="82" coveredelements="52" complexity="0" loc="57" ncloc="57" packages="4" files="11" classes="11"/>
+<coverage generated="1585633781649" clover="3.2.0">
+  <project timestamp="1585633781649" name="All files">
+    <metrics statements="71" coveredstatements="66" conditionals="15" coveredconditionals="10" methods="24" coveredmethods="22" elements="110" coveredelements="98" complexity="0" loc="71" ncloc="71" packages="5" files="15" classes="15"/>
     <package name="client.actions">
-      <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="index.js" path="C:\Coding\EDA-Revision\w6-d3-async-redux-stories-saga\client\actions\index.js">
-        <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
         <line num="6" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
       </file>
     </package>
     <package name="client.components">
-      <metrics statements="22" coveredstatements="14" conditionals="4" coveredconditionals="0" methods="11" coveredmethods="5"/>
+      <metrics statements="22" coveredstatements="20" conditionals="4" coveredconditionals="2" methods="11" coveredmethods="9"/>
       <file name="App.jsx" path="C:\Coding\EDA-Revision\w6-d3-async-redux-stories-saga\client\components\App.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="8" count="1" type="stmt"/>
@@ -39,21 +40,21 @@
         <line num="11" count="1" type="stmt"/>
       </file>
       <file name="Post.jsx" path="C:\Coding\EDA-Revision\w6-d3-async-redux-stories-saga\client\components\Post.jsx">
-        <metrics statements="5" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
       </file>
       <file name="SubredditList.jsx" path="C:\Coding\EDA-Revision\w6-d3-async-redux-stories-saga\client\components\SubredditList.jsx">
-        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
       </file>
       <file name="WaitIndicator.jsx" path="C:\Coding\EDA-Revision\w6-d3-async-redux-stories-saga\client\components\WaitIndicator.jsx">
         <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
@@ -62,21 +63,49 @@
         <line num="11" count="0" type="stmt"/>
       </file>
     </package>
+    <package name="client.reducers">
+      <metrics statements="13" coveredstatements="10" conditionals="11" coveredconditionals="8" methods="3" coveredmethods="3"/>
+      <file name="error-message.js" path="C:\Coding\EDA-Revision\w6-d3-async-redux-stories-saga\client\reducers\error-message.js">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Coding\EDA-Revision\w6-d3-async-redux-stories-saga\client\reducers\index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="subreddits.js" path="C:\Coding\EDA-Revision\w6-d3-async-redux-stories-saga\client\reducers\subreddits.js">
+        <metrics statements="4" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+      <file name="waiting.js" path="C:\Coding\EDA-Revision\w6-d3-async-redux-stories-saga\client\reducers\waiting.js">
+        <metrics statements="6" coveredstatements="4" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="3" type="cond" truecount="2" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+    </package>
     <package name="client.sagas">
-      <metrics statements="8" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.js" path="C:\Coding\EDA-Revision\w6-d3-async-redux-stories-saga\client\sagas\index.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="subreddits.js" path="C:\Coding\EDA-Revision\w6-d3-async-redux-stories-saga\client\sagas\subreddits.js">
-        <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
       </file>
     </package>
     <package name="server">

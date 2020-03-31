@@ -10,7 +10,8 @@ export const requestPosts = (sub) => {
 }
 
 export const receivePosts = (posts) => {
-  console.log("I'm teh receive posts action, chukkin em in redux!")
+  console.log("I'm teh receive posts action, chukkin em in redux! Lookit:")
+  console.log(posts)
   return {
     type: RECEIVE_POSTS,
     posts: posts.map(post => post.data)

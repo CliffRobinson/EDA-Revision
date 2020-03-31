@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`subredditList 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexWrap": "wrap",
+    }
+  }
+>
+  <Post
+    key="0"
+    post="a"
+  />
+  <Post
+    key="1"
+    post="b"
+  />
+  <Post
+    key="2"
+    post="c"
+  />
+</div>
+`;

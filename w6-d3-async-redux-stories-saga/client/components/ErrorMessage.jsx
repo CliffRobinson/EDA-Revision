@@ -4,11 +4,11 @@ import {connect} from 'react-redux'
 export const ErrorMessage = (props) => {
   return (
     <div className='error'>
-      {props.errorMessage}
+      Error Message: {props.errorMessage}
     </div>
   )
 }
 
-export const mapStateToProps = ({errorMessage})=> errorMessage
+export const mapStateToProps = ({errorMessage}) => {return {errorMessage}}
 
 export default connect(mapStateToProps)(ErrorMessage)

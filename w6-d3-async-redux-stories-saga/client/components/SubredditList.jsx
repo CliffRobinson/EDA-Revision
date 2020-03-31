@@ -8,7 +8,7 @@ const styleObj = {
   flexWrap:"wrap"
 }
 
-const Subreddit = ({subreddits}) => (
+export const Subreddit = ({subreddits}) => (
   <div style={styleObj}>
     {subreddits.map((post, i) =>
       <Post
@@ -19,12 +19,10 @@ const Subreddit = ({subreddits}) => (
   </div>
 )
 
-const mapStateToProps = (state) => {
+export const mapStateToProps = (state) => {
   return {
     subreddits: state.subreddits
   }
 }
 
-export default connect(
-  mapStateToProps
-)(Subreddit)
+export default connect(mapStateToProps)(Subreddit)
