@@ -1,39 +1,15 @@
-function getType (thing) {
+module.exports = {
+    getType: (thing) => typeof (thing),
+    isNumber: (thing) => (typeof(thing) == "number"),
+    toNumber: (str) => Number(str),
+    isStringNumber: (str) => typeof(Number(str)) == "number" && !isNaN(Number(str)),
+    add: (a, b) => a+b,
+    addStrings: (a, b) => (Number(a)+Number(b)).toString(),
+    addStringsOrNumbers: (a, b) => (typeof(a) == "number" && typeof(b) == "number") ? a+b : (Number(a)+Number(b)).toString(),
+    isEmail: (str) => (/@/).test(str) && /\./.test(str.slice(str.indexOf("@"))),
+    countIf: (array, fn) => array.reduce( (count, item) => count + (fn(item) ? 1:0),0),
+    filter: (array, fn) => array.filter(fn),
+    map: (array, fn) => array.map(fn),
+    filterStringsWithCommas: (str) => str.indexOf(",") != -1,
+    splitStringByCommas: (str) => str.split(','),
 }
-
-function isNumber (thing) {
-}
-
-function toNumber (str) {
-}
-
-function isStringNumber (str) {
-}
-
-function add (a, b) {
-}
-
-function addStrings (a, b) {
-}
-
-function addStringsOrNumbers (a, b) {
-}
-
-function isEmail (str) {
-}
-
-function countIf (array, fn) {
-}
-
-function filter (array, fn) {
-}
-
-function map (array, fn) {
-}
-
-function filterStringsWithCommas (str) {
-}
-
-function splitStringByCommas (str) {
-}
-
