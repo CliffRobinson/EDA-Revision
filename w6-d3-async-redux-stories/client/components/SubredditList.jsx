@@ -3,12 +3,17 @@ import {connect} from 'react-redux'
 
 import Post from './Post'
 
+const styleObj = {
+  display:"flex", 
+  flexWrap:"wrap"
+}
+
 const Subreddit = ({subreddits}) => (
-  <div>
+  <div style={styleObj}>
     {subreddits.map((post, i) =>
       <Post
         key={i}
-        title={post.title}
+        post={post}
       />
     )}
   </div>

@@ -10,7 +10,7 @@ test('subreddits', ()=> {
     return expectSaga(rootSaga)
         .dispatch(requestPosts('newzealand'))
         .call(request.get, `/api/v1/reddit/subreddit/newzealand`)
-        .run()
+        .silentRun()
 })
 
 test('log', ()=> {
