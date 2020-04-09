@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for client/components/Nav.jsx</title>
+    <title>Code coverage report for client/components/Rank.jsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="..\..\prettify.css" />
     <link rel="stylesheet" href="..\..\base.css" />
@@ -16,12 +16,12 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="..\..\index.html">All files</a> / <a href="index.html">client/components</a> Nav.jsx
+      <a href="..\..\index.html">All files</a> / <a href="index.html">client/components</a> Rank.jsx
     </h1>
     <div class='clearfix'>
     </div>
   </div>
-  <div class='status-line high'></div>
+  <div class='status-line medium'></div>
 <pre><table class="coverage">
 <tr><td class="line-count quiet">1
 2
@@ -37,7 +37,25 @@
 12
 13
 14
-15</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -48,23 +66,41 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react'
 import {Link} from 'react-router-dom'
+import species from "../../data/species"
 &nbsp;
-import ranks from '../../data/ranks'
-import {capitaliseFirst} from './App'
+const switcher = {
+    kingdoms:"kingdom",
+    phyla:"phylum",
+    classes:"class",
+    orders:"order",
+    familes:"family",
+    genera:"genus"
+}
 &nbsp;
-export function Nav(props){
-&nbsp;
-    return (&lt;ul&gt;
-        &lt;li&gt;&lt;Link to={"/"}&gt;Home&lt;/Link&gt;&lt;/li&gt;
-        {Object.keys(ranks).map((classificationName, i) =&gt; {
-            return &lt;li key={i}&gt;&lt;Link to={"/list/"+classificationName} key={i}&gt;{capitaliseFirst(classificationName)}&lt;/Link&gt;&lt;/li&gt;
-        })}
-    &lt;/ul&gt;)
+export function Rank({rank, classification}) {
+    return &lt;React.Fragment&gt;
+        &lt;h3&gt;{rank.name}&lt;/h3&gt;
+        &lt;p&gt;{rank.description}&lt;/p&gt;
+        &lt;h4&gt;Sample Species:&lt;/h4&gt;
+        &lt;ul&gt;
+            {species.filter(
+                specie =&gt; {
+                    return specie[switcher[classification]] == rank.name
+                }
+            ).map(<span class="fstat-no" title="function not covered" >it</span>em =&gt; <span class="cstat-no" title="statement not covered" >&lt;li&gt;&lt;Link to={`/species/${item.id}`}&gt;{item.name}&lt;/Link&gt;&lt;/li&gt;)</span>}
+        &lt;/ul&gt;
+    &lt;/React.Fragment&gt;
 }</pre></td></tr>
 </table></pre>
 <div class='push'></div><!-- for sticky footer -->

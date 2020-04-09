@@ -4,13 +4,16 @@ import { HashRouter as Router, Route } from 'react-router-dom'
 import { Nav } from './Nav'
 import { Home } from './Home'
 import { Classifications} from './Classifications'
-import { Rank } from "./Rank"
+import { Rank } from './Rank'
+import {Species} from './Species'
 
 import ranks from '../../data/ranks'
+import specieses from '../../data/species'
 
 export const capitaliseFirst = (str) => (str[0].toUpperCase()+str.substring(1))
 
-const App = () => {
+const App = (props) => {
+
   return (
     <Router>
       <React.Fragment>
@@ -28,10 +31,17 @@ const App = () => {
               (classificationName) => ranks[classificationName].map(
                 (rank, j) => {
                 return <Route key={classificationName+j} exact path={`/${classificationName}/${rank.name}`} 
-                render={()=> <Rank rank={rank}/>} 
+                render={()=> <Rank classification={classificationName} rank={rank}/>} 
                 />
                 }
               )
+            )}
+            {specieses.map(
+              (specie, k) => {
+              return <Route key={"specie"+k} exact path={`/species/${specie.id}`} 
+              render={()=><Species {... specie}
+              />} />
+              }
             )}
           </div>
         </div>

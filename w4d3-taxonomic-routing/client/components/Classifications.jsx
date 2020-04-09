@@ -7,7 +7,7 @@ export function Classifications({name, classifications}){
         <h2>{name}</h2>
         <ul>
         {classifications.map(
-            (classification, i) => <li><Link to={`/${name}/${classification.name}`}>{classification.name}</Link></li>
+            (classification, i) => <li key={i}><Link to={`/${name}/${classification.name}`}>{classification.name}</Link></li>
         )}
         </ul>
     </React.Fragment>
