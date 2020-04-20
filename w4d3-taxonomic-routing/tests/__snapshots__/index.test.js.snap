@@ -1,0 +1,3729 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <UNDEFINED>
+        <h1>
+           HERE IS THE HEADING !!
+        </h1>
+        <div
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "width": "250px",
+              }
+            }
+          >
+            <Nav />
+          </div>
+          <div>
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/"
+            />
+            <Route
+              exact={true}
+              path="/list/kingdoms"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/list/phyla"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/list/classes"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/list/orders"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/list/families"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/list/genera"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/kingdoms/Animalia"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/kingdoms/Plantae"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/kingdoms/Fungi"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/kingdoms/Eubacteria"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/phyla/Arthropoda"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/phyla/Chordata"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/phyla/Tracheophyta"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/phyla/Basidiomycota"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/phyla/Proteobacteria"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/classes/Insecta"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/classes/Mammalia"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/classes/Magnoliopsida"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/classes/Agaricomycetes"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/classes/Gammaproteobacteria"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/orders/Diptera"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/orders/Primates"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/orders/Fabales"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/orders/Agaricales"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/orders/Enterobacteriales"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/families/Drosophilidae"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/families/Hominidae"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/families/Fabaceae"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/families/Amanitaceae"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/families/Enterobacteriaceae"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/genera/Drosophila"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/genera/Homo"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/genera/Pisum"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/genera/Amanita"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/genera/Escherichia"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/species/1"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/species/2"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/species/3"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/species/4"
+              render={[Function]}
+            />
+            <Route
+              exact={true}
+              path="/species/5"
+              render={[Function]}
+            />
+          </div>
+        </div>
+      </UNDEFINED>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h1>
+             HERE IS THE HEADING !!
+          </h1>,
+          <div
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "width": "250px",
+                }
+              }
+            >
+              <Nav />
+            </div>
+            <div>
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/"
+              />
+              <Route
+                exact={true}
+                path="/list/kingdoms"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/list/phyla"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/list/classes"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/list/orders"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/list/families"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/list/genera"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/kingdoms/Animalia"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/kingdoms/Plantae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/kingdoms/Fungi"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/kingdoms/Eubacteria"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/phyla/Arthropoda"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/phyla/Chordata"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/phyla/Tracheophyta"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/phyla/Basidiomycota"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/phyla/Proteobacteria"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/classes/Insecta"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/classes/Mammalia"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/classes/Magnoliopsida"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/classes/Agaricomycetes"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/classes/Gammaproteobacteria"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/orders/Diptera"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/orders/Primates"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/orders/Fabales"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/orders/Agaricales"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/orders/Enterobacteriales"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/families/Drosophilidae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/families/Hominidae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/families/Fabaceae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/families/Amanitaceae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/families/Enterobacteriaceae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/genera/Drosophila"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/genera/Homo"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/genera/Pisum"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/genera/Amanita"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/genera/Escherichia"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/species/1"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/species/2"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/species/3"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/species/4"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/species/5"
+                render={[Function]}
+              />
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": " HERE IS THE HEADING !!",
+          },
+          "ref": null,
+          "rendered": " HERE IS THE HEADING !!",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                style={
+                  Object {
+                    "width": "250px",
+                  }
+                }
+              >
+                <Nav />
+              </div>,
+              <div>
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/"
+                />
+                <Route
+                  exact={true}
+                  path="/list/kingdoms"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/list/phyla"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/list/classes"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/list/orders"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/list/families"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/list/genera"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/kingdoms/Animalia"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/kingdoms/Plantae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/kingdoms/Fungi"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/kingdoms/Eubacteria"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/phyla/Arthropoda"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/phyla/Chordata"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/phyla/Tracheophyta"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/phyla/Basidiomycota"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/phyla/Proteobacteria"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/classes/Insecta"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/classes/Mammalia"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/classes/Magnoliopsida"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/classes/Agaricomycetes"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/classes/Gammaproteobacteria"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/orders/Diptera"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/orders/Primates"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/orders/Fabales"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/orders/Agaricales"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/orders/Enterobacteriales"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/families/Drosophilidae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/families/Hominidae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/families/Fabaceae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/families/Amanitaceae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/families/Enterobacteriaceae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/genera/Drosophila"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/genera/Homo"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/genera/Pisum"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/genera/Amanita"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/genera/Escherichia"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/species/1"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/species/2"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/species/3"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/species/4"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/species/5"
+                  render={[Function]}
+                />
+              </div>,
+            ],
+            "style": Object {
+              "display": "flex",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Nav />,
+                "style": Object {
+                  "width": "250px",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/"
+                  />,
+                  Array [
+                    <Route
+                      exact={true}
+                      path="/list/kingdoms"
+                      render={[Function]}
+                    />,
+                    <Route
+                      exact={true}
+                      path="/list/phyla"
+                      render={[Function]}
+                    />,
+                    <Route
+                      exact={true}
+                      path="/list/classes"
+                      render={[Function]}
+                    />,
+                    <Route
+                      exact={true}
+                      path="/list/orders"
+                      render={[Function]}
+                    />,
+                    <Route
+                      exact={true}
+                      path="/list/families"
+                      render={[Function]}
+                    />,
+                    <Route
+                      exact={true}
+                      path="/list/genera"
+                      render={[Function]}
+                    />,
+                  ],
+                  Array [
+                    Array [
+                      <Route
+                        exact={true}
+                        path="/kingdoms/Animalia"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/kingdoms/Plantae"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/kingdoms/Fungi"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/kingdoms/Eubacteria"
+                        render={[Function]}
+                      />,
+                    ],
+                    Array [
+                      <Route
+                        exact={true}
+                        path="/phyla/Arthropoda"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/phyla/Chordata"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/phyla/Tracheophyta"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/phyla/Basidiomycota"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/phyla/Proteobacteria"
+                        render={[Function]}
+                      />,
+                    ],
+                    Array [
+                      <Route
+                        exact={true}
+                        path="/classes/Insecta"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/classes/Mammalia"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/classes/Magnoliopsida"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/classes/Agaricomycetes"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/classes/Gammaproteobacteria"
+                        render={[Function]}
+                      />,
+                    ],
+                    Array [
+                      <Route
+                        exact={true}
+                        path="/orders/Diptera"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/orders/Primates"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/orders/Fabales"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/orders/Agaricales"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/orders/Enterobacteriales"
+                        render={[Function]}
+                      />,
+                    ],
+                    Array [
+                      <Route
+                        exact={true}
+                        path="/families/Drosophilidae"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/families/Hominidae"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/families/Fabaceae"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/families/Amanitaceae"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/families/Enterobacteriaceae"
+                        render={[Function]}
+                      />,
+                    ],
+                    Array [
+                      <Route
+                        exact={true}
+                        path="/genera/Drosophila"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/genera/Homo"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/genera/Pisum"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/genera/Amanita"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/genera/Escherichia"
+                        render={[Function]}
+                      />,
+                    ],
+                  ],
+                  Array [
+                    <Route
+                      exact={true}
+                      path="/species/1"
+                      render={[Function]}
+                    />,
+                    <Route
+                      exact={true}
+                      path="/species/2"
+                      render={[Function]}
+                    />,
+                    <Route
+                      exact={true}
+                      path="/species/3"
+                      render={[Function]}
+                    />,
+                    <Route
+                      exact={true}
+                      path="/species/4"
+                      render={[Function]}
+                    />,
+                    <Route
+                      exact={true}
+                      path="/species/5"
+                      render={[Function]}
+                    />,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/list/kingdoms",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/list/phyla",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/list/classes",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "3",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/list/orders",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "4",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/list/families",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "5",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/list/genera",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "kingdoms0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/kingdoms/Animalia",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "kingdoms1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/kingdoms/Plantae",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "kingdoms2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/kingdoms/Fungi",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "kingdoms3",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/kingdoms/Eubacteria",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "phyla0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/phyla/Arthropoda",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "phyla1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/phyla/Chordata",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "phyla2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/phyla/Tracheophyta",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "phyla3",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/phyla/Basidiomycota",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "phyla4",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/phyla/Proteobacteria",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "classes0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/classes/Insecta",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "classes1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/classes/Mammalia",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "classes2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/classes/Magnoliopsida",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "classes3",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/classes/Agaricomycetes",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "classes4",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/classes/Gammaproteobacteria",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "orders0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/orders/Diptera",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "orders1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/orders/Primates",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "orders2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/orders/Fabales",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "orders3",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/orders/Agaricales",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "orders4",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/orders/Enterobacteriales",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "families0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/families/Drosophilidae",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "families1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/families/Hominidae",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "families2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/families/Fabaceae",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "families3",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/families/Amanitaceae",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "families4",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/families/Enterobacteriaceae",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "genera0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/genera/Drosophila",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "genera1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/genera/Homo",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "genera2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/genera/Pisum",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "genera3",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/genera/Amanita",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "genera4",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/genera/Escherichia",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "specie0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/species/1",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "specie1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/species/2",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "specie2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/species/3",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "specie3",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/species/4",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "specie4",
+                  "nodeType": "class",
+                  "props": Object {
+                    "exact": true,
+                    "path": "/species/5",
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <UNDEFINED>
+          <h1>
+             HERE IS THE HEADING !!
+          </h1>
+          <div
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "width": "250px",
+                }
+              }
+            >
+              <Nav />
+            </div>
+            <div>
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/"
+              />
+              <Route
+                exact={true}
+                path="/list/kingdoms"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/list/phyla"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/list/classes"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/list/orders"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/list/families"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/list/genera"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/kingdoms/Animalia"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/kingdoms/Plantae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/kingdoms/Fungi"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/kingdoms/Eubacteria"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/phyla/Arthropoda"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/phyla/Chordata"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/phyla/Tracheophyta"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/phyla/Basidiomycota"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/phyla/Proteobacteria"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/classes/Insecta"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/classes/Mammalia"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/classes/Magnoliopsida"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/classes/Agaricomycetes"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/classes/Gammaproteobacteria"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/orders/Diptera"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/orders/Primates"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/orders/Fabales"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/orders/Agaricales"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/orders/Enterobacteriales"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/families/Drosophilidae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/families/Hominidae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/families/Fabaceae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/families/Amanitaceae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/families/Enterobacteriaceae"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/genera/Drosophila"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/genera/Homo"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/genera/Pisum"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/genera/Amanita"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/genera/Escherichia"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/species/1"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/species/2"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/species/3"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/species/4"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                path="/species/5"
+                render={[Function]}
+              />
+            </div>
+          </div>
+        </UNDEFINED>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <h1>
+               HERE IS THE HEADING !!
+            </h1>,
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "width": "250px",
+                  }
+                }
+              >
+                <Nav />
+              </div>
+              <div>
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/"
+                />
+                <Route
+                  exact={true}
+                  path="/list/kingdoms"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/list/phyla"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/list/classes"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/list/orders"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/list/families"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/list/genera"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/kingdoms/Animalia"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/kingdoms/Plantae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/kingdoms/Fungi"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/kingdoms/Eubacteria"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/phyla/Arthropoda"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/phyla/Chordata"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/phyla/Tracheophyta"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/phyla/Basidiomycota"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/phyla/Proteobacteria"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/classes/Insecta"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/classes/Mammalia"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/classes/Magnoliopsida"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/classes/Agaricomycetes"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/classes/Gammaproteobacteria"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/orders/Diptera"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/orders/Primates"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/orders/Fabales"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/orders/Agaricales"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/orders/Enterobacteriales"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/families/Drosophilidae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/families/Hominidae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/families/Fabaceae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/families/Amanitaceae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/families/Enterobacteriaceae"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/genera/Drosophila"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/genera/Homo"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/genera/Pisum"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/genera/Amanita"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/genera/Escherichia"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/species/1"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/species/2"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/species/3"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/species/4"
+                  render={[Function]}
+                />
+                <Route
+                  exact={true}
+                  path="/species/5"
+                  render={[Function]}
+                />
+              </div>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " HERE IS THE HEADING !!",
+            },
+            "ref": null,
+            "rendered": " HERE IS THE HEADING !!",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  style={
+                    Object {
+                      "width": "250px",
+                    }
+                  }
+                >
+                  <Nav />
+                </div>,
+                <div>
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/"
+                  />
+                  <Route
+                    exact={true}
+                    path="/list/kingdoms"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/list/phyla"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/list/classes"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/list/orders"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/list/families"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/list/genera"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/kingdoms/Animalia"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/kingdoms/Plantae"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/kingdoms/Fungi"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/kingdoms/Eubacteria"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/phyla/Arthropoda"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/phyla/Chordata"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/phyla/Tracheophyta"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/phyla/Basidiomycota"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/phyla/Proteobacteria"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/classes/Insecta"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/classes/Mammalia"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/classes/Magnoliopsida"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/classes/Agaricomycetes"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/classes/Gammaproteobacteria"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/orders/Diptera"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/orders/Primates"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/orders/Fabales"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/orders/Agaricales"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/orders/Enterobacteriales"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/families/Drosophilidae"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/families/Hominidae"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/families/Fabaceae"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/families/Amanitaceae"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/families/Enterobacteriaceae"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/genera/Drosophila"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/genera/Homo"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/genera/Pisum"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/genera/Amanita"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/genera/Escherichia"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/species/1"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/species/2"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/species/3"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/species/4"
+                    render={[Function]}
+                  />
+                  <Route
+                    exact={true}
+                    path="/species/5"
+                    render={[Function]}
+                  />
+                </div>,
+              ],
+              "style": Object {
+                "display": "flex",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Nav />,
+                  "style": Object {
+                    "width": "250px",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <Route
+                      component={[Function]}
+                      exact={true}
+                      path="/"
+                    />,
+                    Array [
+                      <Route
+                        exact={true}
+                        path="/list/kingdoms"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/list/phyla"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/list/classes"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/list/orders"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/list/families"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/list/genera"
+                        render={[Function]}
+                      />,
+                    ],
+                    Array [
+                      Array [
+                        <Route
+                          exact={true}
+                          path="/kingdoms/Animalia"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/kingdoms/Plantae"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/kingdoms/Fungi"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/kingdoms/Eubacteria"
+                          render={[Function]}
+                        />,
+                      ],
+                      Array [
+                        <Route
+                          exact={true}
+                          path="/phyla/Arthropoda"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/phyla/Chordata"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/phyla/Tracheophyta"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/phyla/Basidiomycota"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/phyla/Proteobacteria"
+                          render={[Function]}
+                        />,
+                      ],
+                      Array [
+                        <Route
+                          exact={true}
+                          path="/classes/Insecta"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/classes/Mammalia"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/classes/Magnoliopsida"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/classes/Agaricomycetes"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/classes/Gammaproteobacteria"
+                          render={[Function]}
+                        />,
+                      ],
+                      Array [
+                        <Route
+                          exact={true}
+                          path="/orders/Diptera"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/orders/Primates"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/orders/Fabales"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/orders/Agaricales"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/orders/Enterobacteriales"
+                          render={[Function]}
+                        />,
+                      ],
+                      Array [
+                        <Route
+                          exact={true}
+                          path="/families/Drosophilidae"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/families/Hominidae"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/families/Fabaceae"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/families/Amanitaceae"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/families/Enterobacteriaceae"
+                          render={[Function]}
+                        />,
+                      ],
+                      Array [
+                        <Route
+                          exact={true}
+                          path="/genera/Drosophila"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/genera/Homo"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/genera/Pisum"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/genera/Amanita"
+                          render={[Function]}
+                        />,
+                        <Route
+                          exact={true}
+                          path="/genera/Escherichia"
+                          render={[Function]}
+                        />,
+                      ],
+                    ],
+                    Array [
+                      <Route
+                        exact={true}
+                        path="/species/1"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/species/2"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/species/3"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/species/4"
+                        render={[Function]}
+                      />,
+                      <Route
+                        exact={true}
+                        path="/species/5"
+                        render={[Function]}
+                      />,
+                    ],
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "component": [Function],
+                      "exact": true,
+                      "path": "/",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/list/kingdoms",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/list/phyla",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/list/classes",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "3",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/list/orders",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "4",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/list/families",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "5",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/list/genera",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "kingdoms0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/kingdoms/Animalia",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "kingdoms1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/kingdoms/Plantae",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "kingdoms2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/kingdoms/Fungi",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "kingdoms3",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/kingdoms/Eubacteria",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "phyla0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/phyla/Arthropoda",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "phyla1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/phyla/Chordata",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "phyla2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/phyla/Tracheophyta",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "phyla3",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/phyla/Basidiomycota",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "phyla4",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/phyla/Proteobacteria",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "classes0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/classes/Insecta",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "classes1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/classes/Mammalia",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "classes2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/classes/Magnoliopsida",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "classes3",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/classes/Agaricomycetes",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "classes4",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/classes/Gammaproteobacteria",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "orders0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/orders/Diptera",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "orders1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/orders/Primates",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "orders2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/orders/Fabales",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "orders3",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/orders/Agaricales",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "orders4",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/orders/Enterobacteriales",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "families0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/families/Drosophilidae",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "families1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/families/Hominidae",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "families2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/families/Fabaceae",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "families3",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/families/Amanitaceae",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "families4",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/families/Enterobacteriaceae",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "genera0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/genera/Drosophila",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "genera1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/genera/Homo",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "genera2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/genera/Pisum",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "genera3",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/genera/Amanita",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "genera4",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/genera/Escherichia",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "specie0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/species/1",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "specie1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/species/2",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "specie2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/species/3",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "specie3",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/species/4",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "specie4",
+                    "nodeType": "class",
+                    "props": Object {
+                      "exact": true,
+                      "path": "/species/5",
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": Symbol(react.fragment),
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
+
+exports[`<Home /> 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        " ",
+        "<===",
+        " Click on a link to get started! ",
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      "<===",
+      " Click on a link to get started! ",
+    ],
+    "type": "p",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          " ",
+          "<===",
+          " Click on a link to get started! ",
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        " ",
+        "<===",
+        " Click on a link to get started! ",
+      ],
+      "type": "p",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
+
+exports[`<Nav /> 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Nav />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li>
+          <Link
+            replace={false}
+            to="/"
+          >
+            Home
+          </Link>
+        </li>,
+        Array [
+          <li>
+            <Link
+              replace={false}
+              to="/list/kingdoms"
+            >
+              Kingdoms
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/list/phyla"
+            >
+              Phyla
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/list/classes"
+            >
+              Classes
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/list/orders"
+            >
+              Orders
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/list/families"
+            >
+              Families
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/list/genera"
+            >
+              Genera
+            </Link>
+          </li>,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            replace={false}
+            to="/"
+          >
+            Home
+          </Link>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Home",
+            "replace": false,
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": "Home",
+          "type": [Function],
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            replace={false}
+            to="/list/kingdoms"
+          >
+            Kingdoms
+          </Link>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "children": "Kingdoms",
+            "replace": false,
+            "to": "/list/kingdoms",
+          },
+          "ref": null,
+          "rendered": "Kingdoms",
+          "type": [Function],
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            replace={false}
+            to="/list/phyla"
+          >
+            Phyla
+          </Link>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "children": "Phyla",
+            "replace": false,
+            "to": "/list/phyla",
+          },
+          "ref": null,
+          "rendered": "Phyla",
+          "type": [Function],
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            replace={false}
+            to="/list/classes"
+          >
+            Classes
+          </Link>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "children": "Classes",
+            "replace": false,
+            "to": "/list/classes",
+          },
+          "ref": null,
+          "rendered": "Classes",
+          "type": [Function],
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            replace={false}
+            to="/list/orders"
+          >
+            Orders
+          </Link>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "children": "Orders",
+            "replace": false,
+            "to": "/list/orders",
+          },
+          "ref": null,
+          "rendered": "Orders",
+          "type": [Function],
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            replace={false}
+            to="/list/families"
+          >
+            Families
+          </Link>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "class",
+          "props": Object {
+            "children": "Families",
+            "replace": false,
+            "to": "/list/families",
+          },
+          "ref": null,
+          "rendered": "Families",
+          "type": [Function],
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "5",
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            replace={false}
+            to="/list/genera"
+          >
+            Genera
+          </Link>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "class",
+          "props": Object {
+            "children": "Genera",
+            "replace": false,
+            "to": "/list/genera",
+          },
+          "ref": null,
+          "rendered": "Genera",
+          "type": [Function],
+        },
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            <Link
+              replace={false}
+              to="/"
+            >
+              Home
+            </Link>
+          </li>,
+          Array [
+            <li>
+              <Link
+                replace={false}
+                to="/list/kingdoms"
+              >
+                Kingdoms
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/list/phyla"
+              >
+                Phyla
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/list/classes"
+              >
+                Classes
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/list/orders"
+              >
+                Orders
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/list/families"
+              >
+                Families
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/list/genera"
+              >
+                Genera
+              </Link>
+            </li>,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/"
+            >
+              Home
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Home",
+              "replace": false,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "Home",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/list/kingdoms"
+            >
+              Kingdoms
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "class",
+            "props": Object {
+              "children": "Kingdoms",
+              "replace": false,
+              "to": "/list/kingdoms",
+            },
+            "ref": null,
+            "rendered": "Kingdoms",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/list/phyla"
+            >
+              Phyla
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "children": "Phyla",
+              "replace": false,
+              "to": "/list/phyla",
+            },
+            "ref": null,
+            "rendered": "Phyla",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/list/classes"
+            >
+              Classes
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "children": "Classes",
+              "replace": false,
+              "to": "/list/classes",
+            },
+            "ref": null,
+            "rendered": "Classes",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/list/orders"
+            >
+              Orders
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "class",
+            "props": Object {
+              "children": "Orders",
+              "replace": false,
+              "to": "/list/orders",
+            },
+            "ref": null,
+            "rendered": "Orders",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/list/families"
+            >
+              Families
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "class",
+            "props": Object {
+              "children": "Families",
+              "replace": false,
+              "to": "/list/families",
+            },
+            "ref": null,
+            "rendered": "Families",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/list/genera"
+            >
+              Genera
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "class",
+            "props": Object {
+              "children": "Genera",
+              "replace": false,
+              "to": "/list/genera",
+            },
+            "ref": null,
+            "rendered": "Genera",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1586408331728" clover="3.2.0">
+  <project timestamp="1586408331728" name="All files">
+    <metrics statements="23" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="14" elements="41" coveredelements="33" complexity="0" loc="23" ncloc="23" packages="2" files="8" classes="8">
+      <package name="client.components">
+        <metrics statements="21" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="14"/>
+        <file name="App.jsx" path="D:\coding\EDA-Revision\w4d3-taxonomic-routing\client\components\App.jsx">
+          <metrics statements="10" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="6"/>
+          <line num="13" count="6" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="26" count="6" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="31" count="6" type="stmt"/>
+          <line num="33" count="29" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="41" count="5" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+        </file>
+        <file name="Classifications.jsx" path="D:\coding\EDA-Revision\w4d3-taxonomic-routing\client\components\Classifications.jsx">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="10" count="4" type="stmt"/>
+        </file>
+        <file name="Home.jsx" path="D:\coding\EDA-Revision\w4d3-taxonomic-routing\client\components\Home.jsx">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="4" count="1" type="stmt"/>
+        </file>
+        <file name="Nav.jsx" path="D:\coding\EDA-Revision\w4d3-taxonomic-routing\client\components\Nav.jsx">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="12" count="6" type="stmt"/>
+        </file>
+        <file name="Rank.jsx" path="D:\coding\EDA-Revision\w4d3-taxonomic-routing\client\components\Rank.jsx">
+          <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="22" count="5" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+        </file>
+        <file name="Species.jsx" path="D:\coding\EDA-Revision\w4d3-taxonomic-routing\client\components\Species.jsx">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="data">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="ranks.js" path="D:\coding\EDA-Revision\w4d3-taxonomic-routing\data\ranks.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+        </file>
+        <file name="species.js" path="D:\coding\EDA-Revision\w4d3-taxonomic-routing\data\species.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
