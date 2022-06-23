@@ -34,7 +34,7 @@
     "babel-register": "^6.26.0",
     "enzyme": "^3.3.0",
     "jest": "^22.1.4",
-    "jsdom": "^11.6.1",
+    "jsdom": "^16.5.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
