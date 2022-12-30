@@ -3,7 +3,7 @@
     "eslint": "^5.3.0",
     "eslint-plugin-jest": "^21.21.0",
     "eslint-plugin-react": "^7.10.0",
-    "jest": "^23.5.0",
+    "jest": "^29.3.1",
     "nodemon": "^1.18.3"
   },
   "scripts": {
