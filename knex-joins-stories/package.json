@@ -27,7 +27,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "knex": "^0.20.11",
+    "knex": "^2.4.0",
     "sqlite3": "^4.1.1"
   },
   "devDependencies": {
